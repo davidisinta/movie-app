@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [About](#about)
-- [App screenshot & Website Link](#App-Screenshot-&_Website-Link)
+- [App Screenshot & Website Link](#app-screenshot--website-link)
 - [Technologies Used](#technologies-used)
 - [Skills Gained](#skills-gained)
 - [How to Use](#how-to-use)
