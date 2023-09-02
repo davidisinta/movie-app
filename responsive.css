@@ -1,0 +1,54 @@
+/* responsive design */
+
+.topnav {
+    padding: 10px;
+}
+
+.topnav a {
+    padding: 14px 16px;
+    font-size: 1.2rem;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+    .topnav a {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+    .topnav a {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+
+    .topnav .search-container {
+        float: none;
+        margin-top: 10px;
+    }
+
+    form {
+        width: 100%;
+        padding: 5px;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    .thumbnail {
+        height: auto;
+        width: 100%;
+    }
+
+    .column {
+        float: none;
+        width: 100%;
+    }
+
+    .card {
+        border-radius: 0;
+        padding: 10px;
+    }
+}
