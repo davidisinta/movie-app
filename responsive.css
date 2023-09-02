@@ -1,54 +1,27 @@
 /* responsive design */
-/* responsive.css */
+/* style.css */
+/* Add your existing styles here */
 
-/* Desktop styles */
-.topnav {
-    padding: 10px;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.topnav a {
-    padding: 14px 16px;
-    font-size: 1.2rem;
+.column {
+    flex: 0 0 calc(50% - 20px); /* Two containers per row for tablets */
+    margin-bottom: 20px;
 }
 
-/* Tablet styles */
+/* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
-    .topnav a {
-        font-size: 1rem;
-    }
     .column {
-        width: 50%; /* Two containers per row for tablets */
+        flex: 0 0 calc(50% - 20px); /* Two containers per row for tablets */
     }
 }
 
-/* Mobile styles */
 @media screen and (max-width: 480px) {
-    .topnav a {
-        padding: 10px 12px;
-        font-size: 0.9rem;
-    }
-
-    .topnav .search-container {
-        float: none;
-        margin-top: 10px;
-    }
-
-    form {
-        width: 100%;
-        padding: 5px;
-    }
-
-    input {
-        width: 80%;
-    }
-
-    .thumbnail {
-        height: auto;
-        width: 100%;
-    }
-
     .column {
-        float: none;
-        width: 100%; /* One container per row for phones */
+        flex: 0 0 calc(100% - 20px); /* One container per row for phones */
     }
 }
