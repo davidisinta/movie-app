@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [About](#about)
+- [App Screenshot & Website link](#App-Screenshot-&_Website-Link)
 - [Technologies Used](#technologies-used)
 - [Skills Gained](#skills-gained)
 - [How to Use](#how-to-use)
@@ -10,7 +11,7 @@
 
 The Movie Search App is a web application that allows users to search for their favorite movies and view their details. It's a fun and interactive way to discover new movies. This project was created as a part of my journey to learn web development and how to work with APIs.
 
-## App screenshot
+## App screenshot & Website Link
 
 ![Movie Search App Screenshot](https://github.com/davidisinta/movie-app/assets/83705759/22edf4d0-c2e6-4e05-be39-c23e28269782>)
 
